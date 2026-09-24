@@ -1,4 +1,18 @@
-# Lagrangian Relaxation for Unit Commitment
+# Energy Systems Optimization
+
+<!-- portfolio-umbrella:start -->
+## Portfolio role
+
+This repository is the primary umbrella repository for this Jors Academy research area. Related projects have been consolidated under `projects/` so the methods, implementations, experiments, and case studies can be maintained and explored from one place.
+
+### Included projects
+
+- [`electric-bus-charging-fleet-planning-optimization`](projects/electric-bus-charging-fleet-planning-optimization/)
+- [`industrial-energy-management-sac`](projects/industrial-energy-management-sac/)
+- [`vogel-transportation-power-distribution-optimizer`](projects/vogel-transportation-power-distribution-optimizer/)
+
+Each consolidated project keeps its own files and a `SOURCE_REPOSITORY.md` provenance record. The snapshot preserves the source repository's default-branch files at consolidation time; repository-level history and metadata remain separate from the snapshot.
+<!-- portfolio-umbrella:end -->
 
 A reproducible implementation of **Lagrangian relaxation for thermal unit commitment** with unit-wise decomposition, Polyak-style subgradient updates, primal recovery, exact small-instance verification, tests, and CI.
 
